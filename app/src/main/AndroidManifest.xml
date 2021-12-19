@@ -18,6 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--        FOR PROVIDE SUPPORT TO ANDROID 12 AND TO AVOID ERROR IN LATEST DEPENDENCIES  -->
         <receiver
             android:name="com.razorpay.RzpTokenReceiver"
             android:exported="false">
